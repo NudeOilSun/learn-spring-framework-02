@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Qualifier("SuperContraGameQualifier")
+//Qualifier - specific bean should be auto-wired
 public class SuperContraGame implements GamingConsole {
     public void Up(){
         System.out.println("up");

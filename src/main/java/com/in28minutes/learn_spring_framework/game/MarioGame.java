@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary //Gives this Component priority if multiple Components are found
+//Primary - a bean should be given prfrences when multiple components qualify
 public class MarioGame implements GamingConsole {
     public void Up(){
         System.out.println("jump");
