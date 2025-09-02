@@ -1,11 +1,13 @@
 package com.in28minutes.learn_spring_framework.examples.Exercise;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-@Component
+//@Component
+@Service //indicates this class is used to handle bussiness logic
 public class BussinessCaulculationService {
     private  DataService dataService;
 

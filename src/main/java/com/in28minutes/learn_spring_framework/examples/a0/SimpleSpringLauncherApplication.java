@@ -6,7 +6,8 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Arrays;
 
-@Configuration
+@Configuration //indicates class declares one or more bean methods and may be processed by the spring container to
+                // generate bean definitions
 @ComponentScan //Will perform in current package if none is specified
 public class SimpleSpringLauncherApplication {
 
